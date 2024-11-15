@@ -1,4 +1,4 @@
-Proto type of a collaborative praxis during the dissertation process to create an open access, digital born scholarly edition of an early modern romance. 
+Proto type of a collaborative praxis during the dissertation phase to create an open access, digital born scholarly edition of an early modern romance. 
 What: open access digital born scholarly edition-Lady Mary Wroth's The First Part of the Countesse of Montgomeries Urania 1621-digital humanities and literature.
 Support: Women Writers Project and Center for Digital Humanities Digital Scholars Group at Northeastern University-Julia Flanders.
 Who: Jo McIntosh, PhD-ABD University of Houston.
