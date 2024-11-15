@@ -43,7 +43,10 @@
         </listPerson>
     </standOff>
     <text>
-       <body> <p><lb/><seg>W <!--come back to this ornamental scripty W -->hen the Spring began to appeare like the welcom mes-
+       <body> 
+           
+           
+           <p><lb/><seg>W <!--come back to this ornamental scripty W -->hen the Spring began to appeare like the welcom mes-
             <lb/>senger of Summer, one sweet  <w:aside >(and in that more sweet)</w:aside>
             <lb/>morning, after <!-- make sure to add italics for these names later --> <persName>Aurora</persName> had called all carefull eyes to 
             <lb/>attend the day, forth came the <interp type="#pi" ana="urania">faire</interp> <ref ana="#urania">Shepherdesse</ref> <persName ref="#urania"><choice><orig>V</orig><reg>U</reg></choice>ra-
