@@ -43,26 +43,24 @@
         </listPerson>
     </standOff>
     <text>
-       <body> 
-           
-           
-           <p><lb/><seg>W <!--come back to this ornamental scripty W -->hen the Spring began to appeare like the welcom mes-
-            <lb/>senger of Summer, one sweet  <w:aside >(and in that more sweet)</w:aside>
+       <body>  
+           <p><lb/>W <!--come back to this ornamental scripty W -->hen the Spring began to appeare like the welcom mes-
+            <lb/>senger of Summer, one sweet  <w:aside who="#narrator" >(and in that more sweet)</w:aside>
             <lb/>morning, after <!-- make sure to add italics for these names later --> <persName>Aurora</persName> had called all carefull eyes to 
             <lb/>attend the day, forth came the <interp type="#pi" ana="urania">faire</interp> <ref ana="#urania">Shepherdesse</ref> <persName ref="#urania"><choice><orig>V</orig><reg>U</reg></choice>ra-
-                <lb/>nia</persName>,             <interp type="#pi" ana="urania">faire</interp> indeed; yet that farre too <interp type="#pi">meane a title</interp> for
+                <lb/>nia</persName>, <interp type="#pi" ana="urania">faire</interp> indeed; yet that farre too <interp type="#pi">meane a title</interp> for
             <lb/>her, who for beautie deserv'd the highest stile could be gi<choice><orig>v</orig><reg>u</reg></choice>en by best knowing <choice><orig>I</orig><reg>j</reg></choice>udgements). Into the Meade  <!-- okay, i'm going to stop tagging these orig's now, but I do need to ref for capitalization -->
             <lb/>she came, where <choice><orig>v</orig><reg>u</reg></choice>sually shee dra<choice><orig>u</orig><reg>v</reg></choice> her flocks to feede, 
             <lb/> whoseleaping and w(antonesse shewed they were proud of such a Guide:
             <lb/>But she, whose sad thoughts led her to another manner of spending her time, 
             <lb/>made her soon leave them, and follow her late begun custome; which was 
-            <lb/><note type="aside" ana="#narrator">(while they delighted themselves)</note> to sit <choice><orig>v</orig><reg>u</reg></choice> some shade, bewailing her 
+            <lb/><w:aside who="#narrator">(while they delighted themselves)</w:aside> to sit <choice><orig>v</orig><reg>u</reg></choice> some shade, bewailing her 
             <lb/>misfortune; while they fed, to feed <choice><orig>v</orig><reg>u</reg></choice>pon her owne sorrow and teares, which 
             <lb/>at this time she began againe to summon, sitting downe <choice><orig>v</orig><reg>u</reg></choice>nder the shade of a 
-            <lb/>well-spread Beech; the ground <note type="aside" ana="#narrator">(then blest)</note> and the tree with full, and fine 
+            <lb/>well-spread Beech; the ground <w:aside who="#narrator">(then blest)</w:aside> and the tree with full, and fine 
             <lb/>lea<choice><orig>u</orig><reg>v</reg></choice>ed branches, growing proud to beare, and shadow such perfections. But
             <lb/>she regarding nothing, in comparison of her woe, thus proceeded in her
-            <lb/>griefe:</seg> <seg type="episode" xml:id="e1" ana="#dali"  resp="#urania" source="#urania"><said who="#urania">'Alas</said> <persName ref="#urania"><choice><orig>V</orig><reg>U</reg></choice>rania, </persName><rs type="shepherdess-princess" ></rs> said she,<note type="aside" ana="#narrator">(the true ser<choice><orig>u</orig><reg>v</reg></choice>ant to misfortune)</note>; <said who="#urania">of any mise-
+            <lb/>griefe: <seg type="episode" xml:id="e1" ana="#dali"  resp="#urania" source="#urania"><said who="#urania">'Alas</said> <persName ref="#urania"><choice><orig>V</orig><reg>U</reg></choice>rania, </persName><rs type="shepherdess-princess" ></rs> said she,<w:aside who="#narrator">(the true ser<choice><orig>u</orig><reg>v</reg></choice>ant to misfortune)</w:aside>; <said who="#urania">of any mise-
                 <lb/>rie that can befall woman, is not this the most and greatest which thou art 
                 <lb/>falne into? Can there be any neare the <choice><orig>v</orig><reg>u</reg></choice>nhappinesse of being ignorant, and 
                 <lb/>that in the highest kind, not being certaine of mine owne estate or birth?
@@ -87,7 +85,7 @@
             
             <!-- Julia: Urania's name is not mentioned on this page, except where I've encoded it. for resp=, source=, or who= is this pronoun tag the right one to use for that purpose? I'm using resp= in place of ref=, like I'm doing in the episodes, but I'm not sure it's the same sort of situation or if I should just use ana= or some other attribute. Also, I'm not marking every pronoun. My larger question is: does it matter? My original idea a year ago was to make sure that who is speaking is named on each page of the transcription, but that was before I understood that this could be contained in the <said> element. Still, my goal is for any audience to be able to quickly identify who is speaking on a given page in only one step, whatever that step is. Is that work for the xml?  
          -->
-            which brought <persPronouns resp="#urania">her</persPronouns> to the further side of the plaine, to the foote of the rocks, 
+            which brought her to the further side of the plaine, to the foote of the rocks, 
             speaking as she went these lines, her eies fixt <choice><orig>v</orig><reg>u</reg></choice>pon the ground, her very soule 
             turn'd into mourning.
             
@@ -122,7 +120,7 @@
             <lb/> tinuance of her ignorance, went in; where shee found a pretty roome, as if
             <lb/>that stonie place had yet in pitie, given leave for such perfections to come in-
             <lb/>to the heart as chiefest, and most beloved place, beause most loving. The
-            <lb/>place was not unlike the ancient <note type="aside" ana="#narrator">(or the descriptions of ancient)</note> Hermitages, 
+            <lb/>place was not unlike the ancient <w:aside who="#narrator">(or the descriptions of ancient) Hermitages</w:aside>, 
             <lb/>instead of hangings, convered and lined with Ivie, disdaining ought else should
             <lb/>come there, that being in such perfection. <!-- Jo: pastoral allusion; review New Arcadia and a couple of articles about pastoral romance to cite for GoT or a pop-up note for this excerpt --> This richnesse in natures plentie
             <lb/>made her stay to behold it, almost grudge the pleasant fulnes of content
@@ -135,7 +133,7 @@
             <lb/>ther roome, like the first in all proportion; but in the midst there was a square
             <lb/>stone, like to a prettie table, and on it a wax-candle burning; and by that a
             <lb/>paper, which had suffered it selfe patiently to receiue the discouering of so 
-            <lb/>much of it, as presented this Sonnet <note type="aside" ana="#narrator">(as it seemed newly written)</note> to her sight. 
+            <lb/>much of it, as presented this Sonnet <w:aside who="#narrator">(as it seemed newly written)</w:aside> to her sight. 
         
           
             <said who="#urania" aloud="false"> 
@@ -187,8 +185,8 @@
                 <!-- occassionally, a printer choice or error could change a meaning, so i want to mark those. -->
                 <lb/>Apparrell hee had sutable to the habitation, which
                 <lb/>was a long gray robe. This grieufull spectacle did much amaze the sweet 
-                <lb/>and tender-hearted Shepherdesse; especially, when she perceiued <note type="aside" ana="#narrator"> (as she
-                    <lb/>might by the helpe of the candle)</note> the teares which distilled from his 
+                <lb/>and tender-hearted Shepherdesse; especially, when she perceiued <w:aside who="#narrator">(as she
+                    <lb/>might by the helpe of the candle)</w:aside> the teares which distilled from his 
                 <lb/>eyes; who seeming the image of death, yet had this signe of worldly
                 <lb/>sorrow, the drops falling in that abundance, as if there were a kind strife
                 <lb/>among them, to rid their <ref type="#perissus">Master</ref> first of that burdenous carriage; or else
@@ -198,7 +196,7 @@
                 <lb/>profoundest part of his soule, he said. <!-- (Jo)the element that notes when punctuation is ambigous + might change meaning -->
                 <said who="#perissus">Miserable <persName ref="#perissus">Perissus</persName>, canst thou thus
                     <lb/>liue, knowing ſhe that gaue thee life is gone? Gone, O me! and with
-                    <lb/>her all my ioy departed. Wilt thou <note type="aside" ana="#perissus">(vnbleſſed creature)</note> lie here com-
+                    <lb/>her all my ioy departed. Wilt thou <w:aside who="#perissus">(vnbleſſed creature)</w:aside> lie here com-
                     <lb/>plaining for her death, and know she died for thee? Let truth and shame
                     <lb/>make thee doe something worthy of such Loue, ending thy daies like 
                     <lb/>thy selfe, and one fit to be her Seruant. But that I must not doe: then
@@ -208,7 +206,7 @@
                     <lb/>perfections delicately faign'd to be in women were verified in thee, was
                     <lb/>such worthinesse framed onely to be a wondred at by the best, but giuen
                     <lb/>as prey to base and vnworthy iealousie? When were all worthy parts
-                    <lb/>ioyne'd in one, but in thee <note type="aside" ana="#perissus">(my best <persName ref="#limena">Limena</persName>)</note><note type="aside" ana="#perissus">(vnbleſſed creature)</note>? yet all these growne sub-
+                    <lb/>ioyne'd in one, but in thee <w:aside who="#perissus">(my best <persName ref="#limena">Limena</persName>)</w:aside><w:aside who="#perissus">(vnbleſſed creature)</w:aside>? yet all these growne sub-
                     <lb/>iect to a creature ignorant of all but ill, like vnto a Foole, who in a darke
                     <lb/>Caue, that hath but one way to get out, having a candle, but not the
                     <lb/><fw type="catch" rend="break(no)align(right)">vnder-</fw>
@@ -238,15 +236,15 @@
                     <lb/>liue againe, as to new life rais'd out of the reuenge you should take on
                     <lb/>them? then were her end satisfied, and you deseruedly accounted wor-
                     <lb/>thie of her fauour, if shee were so worthie as you say.</said><said who="#perissus">If shee were, O
-                        <lb/>God</said><note type="aside" ana="#narrator">(cri'd out <persName ref="perissus">Perissus)</persName>,</note><said who="#perissus"> what diuelish spirit art thou, that thus dost,
+                        <lb/>God</said><w:aside who="#narrator">(cri'd out <persName ref="perissus">Perissus)</persName>,</w:aside>><said who="#perissus"> what diuelish spirit art thou, that thus dost,
                             <lb/>come to torture me? But now I see you are a woman, and therefore 
                             <lb/>not much to be marked, and lesse resisted: but if you know charitie, I 
                             <lb/> pray now practice it, and leaue me who am afflicted sufficiently with-
                             <lb/>out your companie; or if you will stay, discourse not to me.</said><said who="#urania">Neither
-                                <lb/> of these will I doe</said><note type="aside" ana="#narrator">(said she).</note><said who="#perissus">if you be then<note type="aside" ana="#narrator">(said he)</note>some <note type="got">furie</note> of pur-
+                                <lb/> of these will I doe</said><w:aside who="#narrator">(said she.</w:aside>><said who="#perissus">if you be then<w:aside who="#narrator">(said he)</w:aside>some <note type="got">furie</note> of pur-
                                     <lb/>pose sent to vex me, vse your force to vttermost in martyring me; 
                                     <lb/>    for neuer was there a fitter subiect, then the heart of poore <persName ref="#perissus">Perissus</persName> is.</said><said who="#urania">I 
-                                        <lb/>   am no fury </said><note type="aside" ana="#narrator">(repli'd the diuine <persName ref="#urania">Vrania</persName> )</note><!-- keeping this narrator aside note because the content is rhetorical -->, <said>nor hither come to trouble you, 
+                                        <lb/>   am no fury </said><w:aside who="#narrator">(repli'd the diuine <persName ref="#urania">Vrania</persName> )</w:aside><!-- keeping this narrator aside note because the content is rhetorical -->, <said>nor hither come to trouble you, 
                                             but by accident lighted on this place; my cruell hap being such, as one-
                                             <lb/> ly the like can giue me content, while the solitarinesse of this like Caue
                                             <lb/> might giue me quiet, though not ease; seeking for such a one, I happe-
@@ -274,21 +272,21 @@
             <milestone unit="sig" n="B3r"/>
                <fw type="aligntop(center)">Urania. LIB. 1.</fw><!-- Jo: fix characters -->   
             <fw type="pageNum" rend="align(right)">5</fw>     
-            <lb/><note type="#pi_#got"></note>shall his estate. There was in this Country <note type="aside" ana="#perissus">(as the only blessing it en-
-               <lb/>ioyed)</note> a Lady , or rather a Goddesse for incomparable beautie, and match-
+            <lb/><note type="#pi_#got"></note>shall his estate. There was in this Country <w:aside who="#perissus">(as the only blessing it en-
+               <lb/>ioyed)</w:aside> a Lady , or rather a Goddesse for incomparable beautie, and match-
                <lb/>les vertues,  
                <lb/><seg type="episode" xml:id="e3" resp="#limena" source="#perissus" ana="#dali"> called <persName ref="limena">Limena</persName>, daughter to a Duke; but, Princesse of all hearts:
                   <lb/>this starre comming to the Court to honour it with such light, it was in
                   <lb/>that my blessed destinie to see her, and be made her servant, or better to <!-- does seruant imply choice of some kind, and slave imply no choice? It seems so. And if that is the case, then what is the nature of the seruant and that the slave, and what is the nature of that thing or person to which one is a slaue? I think this this might be an important distinction and discussion about that distinction. What do these two words in this situation imply about the differences in the state and nature of being a servant and the state and nature of being a slave to something or someone? See slave in the next line. -->
                   <lb/>say, a slaue to her perfections; thus long was I happie, but now begins 
-                  <lb/>the tragedie: for warres falling out betweene the people and the Gentlemen, the King was by the people <note type="aside" ana="#perissus">(imagining he tooke the other part)</note>
+                  <lb/>the tragedie: for warres falling out betweene the people and the Gentlemen, the King was by the people <w:aside who="#perissus">(imagining he tooke the other part)</w:aside>
                   <lb/>brought into some danger, and so great an one, as rudenes ioynd with
                   <lb/>ill nature could bring him into , being at last besieged in a strong hold
                   <lb/>of his, all of vs his seruants, and gentle subiects, striuing for his good
                   <lb/>and safetie; in this time nothing appearing but danger, and but wise
                   <lb/>force to preserue mens liues and estates vnto them, euery one taking the
-                  <lb/>best means to attaine vnto their good desires. The Duke <note type="aside" ana="#perissus">(father to the
-                     <lb/>best, and truest beauty)</note> would yet bestow that vpon a great Lord in the 
+                  <lb/>best means to attaine vnto their good desires. The Duke <w:aside who="#perissus">(father to the
+                     <lb/>best, and truest beauty)</w:aside> would yet bestow that vpon a great Lord in the 
                   <lb/>Country, truly for powerfull command and meanes, a fit match for any, but
                   <lb/>the wonder of women, since none could without much flatterie to him-
                   <lb/>selfe, thinke he might aspire to the blessing of being accounted worthie 
@@ -311,7 +309,7 @@
                <lb/>had procured me such fauor. There were none, but carefully sought
                <lb/>my health, especially her husband, whose diligence was as tedious, as his 
                <lb/>wiues was my only joy. Greiu'd I was to stay and see my miserie, yet
-               <lb/>sad I was to goe from seeing her, who gaue me <note type="aside" ana="#perissus">(though a barr'd) delight</note>
+               <lb/>sad I was to goe from seeing her, who gaue me <w:aside who="#perissus">(though a barr'd) delight</w:aside>>
                <lb/>in beholding her: but know passion the greater Lord ouer my strength,
                <lb/>I tooke my leaue, pretending busines, hauing onely taken the opportuni-
                <lb/>tie that way afforded me to visite them, passing so neare by them; they 
@@ -351,11 +349,11 @@
                 <lb/>ing occasion whereby to performe his Masters commaund. He then seeing 
                 <lb/>it offered, would not neglect it, Urania though somewhat timerously, esteeming her
                 <lb/>for her excellencies rather some Goddesse of those Woods, then an earthly 
-                <lb/>Creature: but remembering the infinite <note type="aside" ana="#perissus">(yet not sufficient)</note> praises I had gi-
+                <lb/>Creature: but remembering the infinite <w:aside who="#perissus">(yet not sufficient)</w:aside> praises I had gi-
                 <lb/>uen her, concluded, it could be none other then <persName ref="#limena">Limena</persName>; so as comming to
                <lb/>her, he on his knees deluered the letter, saying these words; The wofull <persName ref="#perissus">Pe-
                   <lb/>rissus</persName> his Lord and Master presented that, with his seruice to her. This
-                <lb/><note type="aside" ana="#perissus">(though but little)</note> was more then I could haue said, it in his place: For
+                <lb/><w:aside who="#perissus">(though but little)</w:aside> was more then I could haue said, it in his place: For
                 <lb/>Lord, how was i <!-- check this capitalization --> afflicted with millions of doubts how it might be deliue-
                 <lb/>red; then, whether she would accept of it; and most, what she would conceiue
                 <lb/>of my boldnesse, quaking when I gaue it him, knowing how wretched a crea-
@@ -364,7 +362,7 @@
                 <lb/>that to haue suffered martyrdome. But she for my happinesse tooke it, and
                 <lb/>with a pretty blush read it, which since I perceiu'd did spring from loue, yet
                 <lb/>blusht to see itselfe so liuely in her cheekes. When she had read it, <said who="#limena">Good
-                    <lb/>youth</said> <note type="aside" ana="#perissus">(said she)</note> <said who="#limena">commend me to your Lord: but for his letter, say, It needs
+                    <lb/>youth</said> <w:aside who="#perissus">(said she)</w:aside>> <said who="#limena">commend me to your Lord: but for his letter, say, It needs
                         <lb/>no answer till he come himselfe, and fetch one.</said> With this he return'd, and
                 <lb/>so with much comfort to me, hope being glad to build on any small ground, 
                 <lb/>how much more then on so likely a possibility. I then, Hopes seruant, as be-
@@ -389,9 +387,9 @@
                    <lb/>standing, and experience, able and sufficient to iudge, or aduise in any matter
                    <lb/>we could discourse of: but modestie in her cause'd it, onely louing know-
                    <lb/>ledge, to be able to discerne mens vnderstandings by their arguments, but no
-                   <lb/>way to shew it by her owne speech. This <note type="aside" ana="#perissus">(and withall feare of discouering
+                   <lb/>way to shew it by her owne speech. This <w:aside who="#perissus">(and withall feare of discouering
                        <lb/>some passions, which she, though excelling in with and iudgement; yet could
-                       <lb/>not gouerne, at least, guiltines forc'd her to thinke so)</note>was the reason she held
+                       <lb/>not gouerne, at least, guiltines forc'd her to thinke so)</w:aside>was the reason she held
                    <lb/>her grauitie; yet after she grew more merry. And I finding a fit time by her
                    <lb/>husbands going out of the chamber, with some companie that was there, 
                    <lb/>humbly desired an answere of my letter. She blushing, an das if ashamed so 
@@ -405,13 +403,13 @@
                    <lb/>tie I would not aske, which I know, if I had offered, her vertue would haue
                    <lb/>refused, nor truly would my deere and worthy affection permit mee to de-
                    <lb/>maund, and this held our loues more firme, when tied by vertue. But not to 
-                   <lb/>hold you long with this <note type="aside" ana="#perissus">(which yet to me is some ease for the present, al-
-                       <lb/>though the bitterer the conclusion is that followes)</note>. We had as many such
+                   <lb/>hold you long with this <w:aside who="#perissus">(which yet to me is some ease for the present, al-
+                       <lb/>though the bitterer the conclusion is that followes)</w:aside>. We had as many such
                    <lb/>meetings as true, or fained meanes could compassevs, till our miserie was
-                   <lb/>such as this wild man her husband <note type="aside" ana="#perissus">(whether our of true consideration of his 
-                       <lb/>great vnworthines, or proceeding from his forward disposition, I know not)</note>
-                   <lb/>grew iealous <note type="aside" ana="#perissus">an humour following base minds as readily, as thunder doth
-                       <lb/>the lightning)</note> then had he rashnes to accompany the other, which fram'd a
+                   <lb/>such as this wild man her husband <w:aside who="#perissus">(whether our of true consideration of his 
+                       <lb/>great vnworthines, or proceeding from his forward disposition, I know not)</w:aside>
+                   <lb/>grew iealous <w:aside who="#perissus">an humour following base minds as readily, as thunder doth
+                       <lb/>the lightning)</w:aside> then had he rashnes to accompany the other, which fram'd a
                    <lb/>determinati<choice><abbr>ō</abbr><expan>on</expan></choice>, which was soone altered fr<choice><abbr>ō</abbr><expan>om</expan></choice> that name by performance, that
                    <lb/>she should stay no longer with her father, but go with him to his own house; 
                    <lb/>this I had notice of, but all that we could doe, could not hinder the accom-
@@ -419,7 +417,7 @@
                    <lb/>I found the accustomed entertainment, he vsing me with al shew of respect, 
                    <lb/>which in that kind I embraced; our hearts being as farre from meaning truth
                    <lb/>in giuing or accepting, as truth is from bare complement; but greatnesse in
-                   <lb/>me made him vse it; and care in me <note type="aside" ana="#perissus">of better selfe)</note> receiue it; my heart
+                   <lb/>me made him vse it; and care in me <w:aside who="#perissus">of better selfe)</w:aside> receiue it; my heart
                    <lb/>swelling with hate and scorne, euen almost to breaking, when I did see him. 
                    <lb/>That night I saw her, and but spake to her, so curiously her husband watched
                    <lb/>vs, yet could he not keepe our eies, but by them we did deliuer our soules, he
@@ -453,20 +451,20 @@
                quelling violences by sacrificing herself and submitting? If she had not married the country lord, and her father's castle had been overrun, what would have happened to her?  The King and Perissus 
                were already fighting back rebellion in other areas, so the outcome of the larger battle is still unknown, and they may not have been able to come to her and her family's aid. It sounds like she loves her father, 
                and she certainly loves Perissus, but that is not the impetus for the choices Limena must make. She tries to protect both her father and Perissus in addition to the reality of her inherent vulnerability in this system.-->
-                <lb/>rested, she restlesly bearing all the ills that forward Nature <note type="aside" ana="#perissus">(mixt with pee-
-                    <lb/>uish and spitefull iealousie)</note> could afflict vpon the purest mind; vsing no 0-
+                <lb/>rested, she restlesly bearing all the ills that forward Nature <w:aside who="#perissus">(mixt with pee-
+                    <lb/>uish and spitefull iealousie)</w:aside> could afflict vpon the purest mind; vsing no 0-
                 <lb/>ther meanes, but gentle and mild perswasi<placeName></placeName>ons, which wrought no more in
                 <lb/>him, but that still his madnesse increased. Now was his house not farre from
                 <lb/>the way which I must passe betweene the Campe, and the great Citie of <placeName>Si-
                     <lb/>racusa</placeName>, being one of the chiefe of that kingdome; and which at that time had
-                <lb/>yeelded it selfe againe vnto the King. I heaering <persName ref="#philargus">Philargus</persName> <note type="aside" ana="#perissus">(for so was this
-                    <lb/>vnworthie man called)</note> was at his house, with his truly vertuous wife, whom 
-                <lb/>my soulde longed to see, I resolved to lodge there that night, not <note type="aside" ana="#perissus">(alas)</note> mis-
+                <lb/>yeelded it selfe againe vnto the King. I heaering <persName ref="#philargus">Philargus</persName> <w:aside who="#perissus">(for so was this
+                    <lb/>vnworthie man called)</w:aside> was at his house, with his truly vertuous wife, whom 
+                <lb/>my soulde longed to see, I resolved to lodge there that night, not <w:aside who="#perissus">(alas)</w:aside>> mis-
                 <lb/>trusting the misfortune, but coueting to see her, whom more then my heart I
                 <lb/>loued, or lou'd my heart the better for being hers. So I went thither, where I was by him exceedingly well welcome'd in outward shew, though his mea-
                 <lb/>ning was contrary, which I should haue found, had his diuelish plots bin rea-
                 <lb/>die, Iealousie hauing now blinded him to all good nature or iudgement. She
-                <lb/>poore Lady <note type="aside" ana="#perissus">(poore onely in this fortune)</note> sad and greiu'd, all her smiles turn'd
+                <lb/>poore Lady <w:aside who="#perissus">(poore onely in this fortune)</w:aside> sad and greiu'd, all her smiles turn'd
                 <lb/>into sighes, and thinkings, which made me feare, and wonder, wondring at 
                 <lb/>the change of her beauty, which yet in palenes shew'd excellency; and feare I 
                 <lb/>did, lest my absence had off<choice><abbr>ē</abbr><expan>en</expan></choice>ded her: but I was deceiu'd, while I lest thought
@@ -500,29 +498,29 @@
                                     <lb/>worthlesse as theyselfe?</said><said who="#limena">No, no, my Lord (said she) in this you wrong me, and that iudgement which heretofore you said was in me, since if youwere vn-
                                         <lb/>worthy then, my choice was vnperfect: but you are worthie, and I worthily
                                         <lb/>chose you; I lou'd you, and constantly lou'd you, and in this doe I best allow
-                                        <lb/>of my owne iudgement.</said><said who="#perissus">I hope that loue is not cleane gone (cri'd I), <note type="aside" ana="#perissus">my
-                                            <lb/>speech by loue directed to say thus),</note> nor forget me, though from our 
+                                        <lb/>of my owne iudgement.</said><said who="#perissus">I hope that loue is not cleane gone (cri'd I), <w:aside who="#perissus">my
+                                            <lb/>speech by loue directed to say thus),</w:aside> nor forget me, though from our 
                                             <lb/>most desired meetings, we must be barred.<said who="#limena>">My loue, my Lord (said she) had,
                                                 <lb/>and hath too sure a ground to know remoue, I too truly lou'd, and doe loue
                                                 <lb/>you, euer to forget it, or to let it haue least shadow of lessening, though vai-
-                                                <lb/>led in absence, but rather <note type="aside" ana="#limena">(if increase can be where all is already possest)</note>it
+                                                <lb/>led in absence, but rather <w:aside who="#limena">(if increase can be where all is already possest)</w:aside>it
                                                 <lb/>shall increase: Loue liuing best where desert, and sufferance ioyne together; 
                                                 <lb/>and for witnes of it, take this</said>
                   
                   <!-- Jo: The following aside is missing the closing parenthis so I'll have to tag that as a missing character --> 
                   
-                                            <lb/><note type="aside" ana="#perissus">(said she, bestowing her picture vpon me, which
+                                            <lb/><w:aside who="#perissus">"#perissus">(said she, bestowing her picture vpon me, which
                                                 <lb/>is all the <persName>Limena</persName>s I shall now enjoy, or euer did, more then her lou'd, and best 
                                                 <lb/>beloued sight. The case was blew, commanding me withall to loue that co-
-                                                <lb/>lor, both because it was hers, and because it self betokened truth.</note> By this time
+                                                <lb/>lor, both because it was hers, and because it self betokened truth.</w:aside> By this time
                                             <lb/>her husband was come, who told vs, "twas time to goe rest. We obay'd: and
                                             <lb/>this was the last time that euer I saw my deere, and most worthily accounted
                                             <lb/>deere <persName ref="#limena">Limena</persName>: for the next morning I was by day to be at the Citie, and so
                                             <lb/>from thence to returne to Campe. Thus tooke I my leaue, and my last
                                             <lb/>leaue of vertuous <persName ref="#limena">Limena</persName>, whose sad face, but sadder soule foretold our fol-
                                             <lb/>lowing harme, and succeeding ruine. For within few dayes after my returne
-                                            <lb/>to the Camp, there came a <rs type="persRef">Messenger</rs><!-- Jo: Okay, I included Perissus's Page in the standOff list, because without what that character does and says, the story changes. --> early in the morning, and <note type="aside" ana="perissus">(O too early
-                                                <lb/>for my fortune)</note> whom I strait knew to be <persName ref="#limena">Limena</persName>s faithfull <name type="only" ref="#servant_plot_Limena">Servant</name>. At first, 
+                                            <lb/>to the Camp, there came a <rs type="persRef">Messenger</rs><!-- Jo: Okay, I included Perissus's Page in the standOff list, because without what that character does and says, the story changes. --> early in the morning, and <w:aside who="perissus">(O too early
+                                                <lb/>for my fortune)</w:aside> whom I strait knew to be <persName ref="#limena">Limena</persName>s faithfull <name type="only" ref="#servant_plot_Limena">Servant</name>. At first, 
                   <!-- Julia: in this sentence, Wroth describes this Messenger as a faithfull Servant. 
                 Qualifiers like "faithfull" might be important when noting gender representations, 
                 association with characters, class, racializationn, and variuos plot themes. More immediately important
@@ -540,7 +538,7 @@
                     
                                             <lb/>it brought ioy to me, seeing a letter in his hand; but soone was that turn'd 
                                             <lb/>to as much mourning, cursing my hands that tooke it, and eyes that read so
-                                            <lb/>lamentable a letter; the contents <note type="aside" ana="#perissus">(nay that it selfe)</note> being this, and the verie
+                                            <lb/>lamentable a letter; the contents <w:aside who="#perissus">(nay that it selfe)</w:aside> being this, and the verie
                                             <lb/>same my Mistris sent, and wo is me, the last she ere can send. </said> <persName ref="#urania"> Vrania</persName> read it,
                 <lb/>while he with teares and groanes gaue the true period to it. The Letter said
                 <lb/>thus. </p>
@@ -635,9 +633,9 @@
                                <lb/>coniure him with those sweete charmes which haue vndone mine honour, 
                                <lb/>and content to come vnto you: Let me truely knowe his answere, and be se-
                                <lb/>cret, or I vow thou shalt not many minutes outliue the refusall</said> <said who="#perissus">Shee, swee-
-                                   <lb/>test soule, brought into this danger, <note type="aside" ana="#perissus">like one being betweene a flaming fire, 
+                                   <lb/>test soule, brought into this danger, <w:aside who="#perissus">like one being betweene a flaming fire, 
                                        <lb/>and a swallowing gulfe, must venture into one, or standing still, perish by
-                                       <lb/>one)</note> stood a while not amazed, for her spirit scorned so low a passion; but <!-- Jo: love this moment when Limena realizes how wicked Philargus is, how he expects her to betray not just Perissus, but her own integrity, and steels herself. Also, this is Perissus telling the story, so do we trust him? -->
+                                       <lb/>one)</w:aside> stood a while not amazed, for her spirit scorned so low a passion; but <!-- Jo: love this moment when Limena realizes how wicked Philargus is, how he expects her to betray not just Perissus, but her own integrity, and steels herself. Also, this is Perissus telling the story, so do we trust him? -->
                                    <lb/>iudicially considering with her selfe what might be good in so much ill; she 
                                    <lb/>with modest <note type="#got">constancy</note>, and <note type="#got">constant</note> determination, made this answer. <said who="#limena">This
                                        <lb/>wretched, vnfortunate body, is I confesse in your hands, to dispose of 
@@ -653,18 +651,18 @@
                                            <lb/>my, and reproach from you, nor me,</said>said he: <said who="#philargus">Prepare then quickly, this
                                                <lb/>shall be your last;</said><said who="#limena">My Lord</said>said she<said who="#limena">behold before your eyes the most di-
                                                    <lb/>stres'd of women, who if you will thus murder, is here ready</said>: then vnty-
-                                   <lb/>ing a daintie</said> embrodered wastcoate; <said who="#limena">see here</said> said she, <said who="#limena">the breast, <note type="aside" ana="unknown"> (and a most
-                                       <lb/>heauenly breast it was)<!-- Jo: this aside is a problem. 2 things: 1) check the parameters and 2) Wroth seems to conflate narrator and perissus, becuase neither one is absolutely obvious. Perissus is narrating, but according to the text, he would not know this. Either Wroth is making it clear that the two were intimate, or this is a little bit of a hiccup, not major, in the narrative flow --></note> which you so dearely loued, or made me thinke so,
+                                   <lb/>ing a daintie</said> embrodered wastcoate; <said who="#limena">see here</said> said she, <said who="#limena">the breast, <w:aside who="unknown"> (and a most
+                                       <lb/>heauenly breast it was)<!-- Jo: this aside is a problem. 2 things: 1) check the parameters and 2) Wroth seems to conflate narrator and perissus, becuase neither one is absolutely obvious. Perissus is narrating, but according to the text, he would not know this. Either Wroth is making it clear that the two were intimate, or this is a little bit of a hiccup, not major, in the narrative flow --></w:aside> which you so dearely loued, or made me thinke so,
                                        <lb/>calling it purest warme snow; yet neuer was the colour purer then my loue
                                        <lb/>to you, but now 'tis ready to receiue that streake, shall bring my heart blood, 
                                        <lb/>cherish'd by you once, to dye it, in reuenge of this my wrong reuenge; nay, 
                                        <lb/>such reuenge will my death haue, as though by you I die, I pittie your ensu-
                                        <lb/>ing ouerthrow. </said> </p>
            
-           <p><lb/><said who="#perissus">Whether these words, or that sight <note type="aside" ana="#perissus">(which not to be seene without ado-
-               <lb/>ring)</note> wrought most I knowe not, but both together so well preuaile as hee
-               <lb/>stood in a strange kind of fashion, which she <note type="aside" ana="perissus">(who now was to act her part
-                   <lb/>for life, or death)</note>tooke aduantage of, <said who="#limena">and this your cruelty will more ap-
+           <p><lb/><said who="#perissus">Whether these words, or that sight <w:aside who="#perissus">(which not to be seene without ado-
+               <lb/>ring)</w:aside> wrought most I knowe not, but both together so well preuaile as hee
+               <lb/>stood in a strange kind of fashion, which she <w:aside who="perissus">(who now was to act her part
+                   <lb/>for life, or death)</w:aside>tooke aduantage of, <said who="#limena">and this your cruelty will more ap-
                        <lb/> peare wh<choice><abbr>ē</abbr><expan>en</expan></choice> it is known you gaue no time for consideration, or repentance,</said>said
                <lb/>she; <said who="#philargus">you deserue no such fauor from me,</said> said he,<said who="#philargus">but rather that I should with
                    <lb/> out giuing eare to that bewitching tongue haue reueng'd my harme, but
@@ -692,7 +690,7 @@
                        <lb/>lorous, yet sweete, because louing letter, sent him to mee that day shee
                        <lb/>was to giue her answere, which shee assured him should bee a direct re-
                        <lb/>fusall, esteeming death more pleasing and noble, then to betray me, who 
-                       <lb/><note type="aside" ana="#perissus">(for my now griefe mixt with that blessing)</note> shee inricht with her incom-
+                       <lb/><w:aside who="#perissus">(for my now griefe mixt with that blessing)</w:aside> shee inricht with her incom-
                        <lb/>parable affection, giuing him charge to deliuer it to mine owne hands, 
                        <lb/>and besides, to stay with mee, assuring him I would most kindly intreat him
                        <lb/>for her sake, which shee might truly warrant him, being <ref ana="#Limena">Commandresse</ref>
@@ -714,20 +712,20 @@
                        <lb/>my vnceasing complaints. Despaire hauing left mee no more ground for 
                        <lb/>hope but this, that ere long I shall ease them all, deateh prouing mercifull
                        <lb/>vnto mee, in deliuering this greife-full body to the rest of a desired graue.</said>
-               <lb/><said who="#urania">My Lord <persName ref="#perissus">Perissus</persName> </said><note type="aside">(said <persName ref="#urania">Vrania</persName> )</note>, <said>how idle, and vnprofitable indeed are
+               <lb/><said who="#urania">My Lord <persName ref="#perissus">Perissus</persName>(said <persName ref="#urania">Vrania</persName>), <said>how idle, and vnprofitable indeed are
                    <lb/>these courses, since if shee bee dead, what good can they bring to her? 
                    <lb/>and not being certaine of her death, how vnfit are they for so braue a 
                    <lb/><ref ana="#perissus">Prince</ref>, who will as it were, by will without reason willfully lose himself?
                    <lb/>will not any till the contrarie bee knowne, as properly hope as vainely de-
-                   <lb/>spaire? and can it bee imagined her husband <note type="aside" ana="unknown">(who, passion of loue did in his furie so much temper)</note> should haue so cruell a hand, guided by so
+                   <lb/>spaire? and can it bee imagined her husband <w:aside who="unknown">"unknown">(who, passion of loue did in his furie so much temper)</w:aside>> should haue so cruell a hand, guided by so
                    <lb/>sauage a heart, or seene by so pitilesse eyes, as to be able to murder so sweet
                    <lb/>a beauty? No my Lord, I cannot beleeue but she is liuing, and that you shal
                    <lb/>find it so, if vnreasonable stubborne resolution bar you not, and so hinder you
-                   <lb/>from the eternall happinesse you might enjoy.</said> <said who="#perissus">Only rare <ref ana="#urania">Shepherdesse</ref></said><note type="aside">(said
-                       <lb/>the loue-kill'd <persName ref="#perissus">Perissus</persName> )</note>, how comfortable might these speeches bee to one, 
+                   <lb/>from the eternall happinesse you might enjoy.</said> <said who="#perissus">Only rare <ref ana="#urania">Shepherdesse</ref></said><w:aside who="#perissus">(said
+                       <lb/>the loue-kill'd <persName ref="#perissus">Perissus</persName> )</w:aside>>, how comfortable might these speeches bee to one, 
                <lb/>who were able to receiue them, or had a heart could let in one signe of ioy?
                <lb/>but to me they are rather bitter, since they but cherish mee the longer to
-               <lb/>liue in desparefull miserie. No, shee is dead: for how can goddnesse or 
+               <lb/>liue in desparefull miserie. No, shee is dead: for how can <!-- check goddnesse spelling -->goddnesse or 
                <lb/>pitie bee expected from him, who knew nothing more, then desire of ill
                <lb/>and cruelte? Thou art dead, and with thee all my ioyes departed, all
                <lb/>faith, loue, and worth are dead: to enioy some part of which, in short time, 
@@ -746,7 +744,7 @@
                <fw type="pageNum" rend="align(right)">13</fw>
                
                we may bee ioyne'd together, till which  happie hower I will thus still lament
-               thy losse. If you bee resolu'e <note type="aside" ana="#narrator"></note>
+               thy losse. If you bee resolu'e <w:aside who="#narrator"></w:aside></said>
               
                
                
@@ -786,11 +784,11 @@
                        <lb/>thing; how doth thy wailing sute with mine? Alas, I pitie thee, my selfe in
                        <lb/>some kind wanting such a pitie</said>. Then shee did heare a noise in the bushes, 
                    <lb/>looking what it should be, she saw a fierce she-wolfe come furiously towards
-                   <lb/>her: she, who <note type="aside">(though a spirit matchlesse liued in her)</note> perceiuing her, wish-
+                   <lb/>her: she, who <w:aside who="#narrator">(though a spirit matchlesse liued in her)</w:aside> perceiuing her, wish-
                    <lb/>ed the beast further, yet taking he wonted strength of heart, and vertuous
                    <lb/>thoughts together, she thus said; <said who="#urania"> O heauen defend me miserable creature if
                        <lb/>thou please; if not, grant me this blessing, that I as I shall here end, not know-
-                       <lb/>ing any parents to sorrow for me, so those parents <note type="aside" ana="#urania">(if liuing)</note> may neuer know
+                       <lb/>ing any parents to sorrow for me, so those parents <w:aside who="#urania">(if liuing)</w:aside> may neuer know
                        <lb/>my losse, left they doe grieue for me</said>. As shee thus <note type="#got">religiously</note> gaue her 
                    <lb/>thoughts, and her last, as shee thought to the highest, the beast running to-
                    <lb/>wards her of sudden stood still;</seg>
@@ -925,14 +923,14 @@
                    <lb/>Albanian King's daughter.</said><persName ref="#parselius">Parselius</persName> taking the old King in his armes; <said who="#parselius"> And
                        <lb/>    is it my good fortune most famous <persName ref="#king_of_albania">King of Albania</persName>  (said hee) to haue it 
                        <lb/>in my power to serue so excellent a Prince? Doubt not then but I will
-                       <lb/>with all faithfull loue and diligence <note type="aside" ana="#parselius">(as soone as I haue concluded this
-                           <lb/>    search, with meeting my dearest friend in <placeName>Italie</placeName>)</note> goe into <placeName>Morea</placeName>, and 
+                       <lb/>with all faithfull loue and diligence <w:aside who="#parselius">(as soone as I haue concluded this
+                           <lb/>    search, with meeting my dearest friend in <placeName>Italie</placeName>)</w:aside> goe into <placeName>Morea</placeName>, and 
                        <lb/><fw type="catch" rend="break(no)align(right)">from</fw> </said></seg> 
                
                <pb n="021"/>
                <milestone unit="sig" n="D3r"/>
                <fw type="pageNum" rend="align(right)">21</fw>
-               <lb/><seg type="episode" xml:id="e11" prev="#e10" ana="#sali" resp="#steriamus_selarinus_selarina" source="#parselius"><said who="#parselius">from thence carry such forces as shall <note type="aside" ana="#parselius"></note> (with my other friends I will ioyne
+               <lb/><seg type="episode" xml:id="e11" prev="#e10" ana="#sali" resp="#steriamus_selarinus_selarina" source="#parselius"><said who="#parselius">from thence carry such forces as shall <w:aside who="#parselius"></w:aside> (with my other friends I will ioyne
                    <lb/>    with me) restore you to your right, and pull downe that Macedonian Vsur-
                    <lb/>per, were it but for wrongging you.</said></seg><said> But since I haue so faire an occasion to 
                        <lb/>    reuenge such iniuries offered to vertuous a <ref type="#king_of_Albania">Prince</ref> as your selfe, in keeping 
@@ -974,8 +972,8 @@
                    <lb/>loue, and honor thee? Nay, almost vowe my selfe vnto thee, but I haue
                    <lb/>fail'd Loue is the more powerfull God, and I was borne his subiect</said>: with
                <lb/>that she rose vp and went to the window to see if it were day, neuer know-
-               <lb/>ing before, what it was to wish for any thing <note type="aside">(except the knowledge of her
-                   <lb/>    selfe)</note> now longs for day, watches the houres, deemes euery minute a
+               <lb/>ing before, what it was to wish for any thing <w:aside who="#narrator">(except the knowledge of her
+                   <lb/>    selfe)</w:aside> now longs for day, watches the houres, deemes euery minute a
                <lb/>yeare, and euery houre an Age, till she againe inioy'd <persName ref="#parselius">Parselius</persName> fight, who
                <lb/>all that night tooke as little rest; hope, loue, and feare so vexing him,
                <lb/>and tyrannizing ouer him, as sleepe durst not close, nor seaze his eyes to
@@ -1035,23 +1033,23 @@
                    <lb/>show himselfe in his brightest and most glorious hapbits to entertaine thee
                    <lb/>in these meades, coueting to win thy fauour by his richnesse triumphing
                    <lb/>in his hope of gaine? What mou'd thy sight then in my soule? Think you
-                   <lb/>not it grew to raushing of my sences</said>? <said who="#urania">The Sunne (said she) shin'd <note type="aside" ana="#urania">(mee 
-                       <lb/></note><fw type="catch" rend="align(right)">thought)</fw>
+                   <lb/>not it grew to raushing of my sences</said>? <said who="#urania">The Sunne (said she) shin'd <w:aside who="#urania">(mee 
+                       <lb/></w:aside><fw type="catch" rend="align(right)">thought)</fw>
                        
                        <pb n="023"/>
                        <milestone unit="sig" n="D4r"/>
                        <fw type="pageNum" rend="align(right)">23</fw>
                        <lb/>thought, most on you, being as if so fond, as he did giue himselfe to be your 
-                       <lb/>seruant, circling you about, as if hemeant, that you should be the body, and
+                       <lb/>seruant, circling you about, as if he meant, that you should be the body, and
                        <lb/>himselfe serue for your beames</said>. With that he tooke her hand, and with an
                <lb/>affectionate soule kissed it, then went they together to the Caue where the 
                <lb/>two yong sauage <ref type="#steriamus_selarinus">Princes</ref>, and their <ref type="#selarina">Sister</ref> attended them: then did they
-               <lb/>priuately bury the old <ref type="#king_of_albania">King</ref>, promising <note type="aside">(if businesses went well, that they
-                   <lb/>    by <persName ref="#parselius">Parselius</persName> fauor might recouer their right)</note> to fetch his worthy body,
-               <lb/>and lay it with the other famous Kings of Albania.</p>
+               <lb/>priuately bury the old <ref type="#king_of_albania">King</ref>, promising <w:aside who="narrator">(if businesses went well, that they
+                   <lb/>    by <persName ref="#parselius">Parselius</persName> fauor might recouer their right)</w:aside> to fetch his worthy body,
+               <lb/>and lay it with the other famous Kings of Albania.</p>  <!-- narrator confirms the intention to sali. I think this is a meaningful revelation as it includes the character who, theoretically, controls the narrative in the progression of what I argue is the primary narrative structure. -->
            
-           <lb/><p>This being agreed vpon they went out of the Caue, <seg xml:id="e12" type="episode" resp="#steriamus_selarinus" source="#narrator" ana="#sali"  ><persName ref="#steriamus">Steriamus</persName> and <persName ref="#selarinus">Selarinu<!-- Jo: missing s --></persName>
-               <lb/><note type="aside">for so the yong Princes were called)</note> went first in their sauage habits, which
+           <lb/><p>This being agreed vpon they went out of the Caue, <seg xml:id="e12" type="episode" resp="#steriamus_selarinus" source="#narrator" ana="#sali"><persName ref="#steriamus">Steriamus</persName> and <persName ref="#selarinus">Selarinu<!-- Jo: missing s --></persName>
+               <lb/><w:aside who="#narrator">for so the yong Princes were called)</w:aside> went first in their sauage habits, which
                <lb/>they resouled to weare till they came where they might fit themselues with
                <lb/>apparell, and Armes befitting their Estates:</seg> <persName ref="#parselius">Parselius</persName> then promising to
                <lb/>knight then: Next after them went the <ref type="#parselius">Morean Prince</ref> leading <persName ref="#urania">Vrania</persName>, and
@@ -1127,7 +1125,7 @@
            ble prey</said>; this said, he rose, and placing them all on fine seats in the Cabine,
            where lately the Prince had sate free from both the bands of loue, and im-
            prisonment, himselfe sitting before them began his discourse in this manner
-           <note type="aside" ana="#narrator">(while the ship vnder saile was guided the way which he directed the Pilat)</note>
+           <w:aside who="#narrator">(while the ship vnder saile was guided the way which he directed the Pilat)</w:aside>
            </p>
                
                
@@ -1144,6 +1142,7 @@
          
        
         <!-- end of Booke 1 div --> 
+      
      
             <div type="interpretation"> 
                 <interpGrp> <!-- proto imperialism - should I further divide this into Bookes One, Two, and Three for any reason? -->
@@ -1212,7 +1211,7 @@
             2. other names and pronouns when they reference someone in the standOff list
             3. other names and pronouns that I will add to the standOff list when they do not have a proper name such as daughter, wife, parents, etc, because I'm seeing a pattern -->
            
-   </body> </text>
+       </body></text>
         
    </TEI>
 
