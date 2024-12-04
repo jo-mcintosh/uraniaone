@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/oldRomaxml-odd.rnc" type="application/relax-ng-compact-syntax"?>    <!-- which schema is being applied to the xml -->
+<?xml-model href="../out/oldRomaxml-odd.rnc" type="application/relax-ng-compact-syntax"?>   
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:w="http://marywroth.org/ns/1.0"> <!-- name space -->
     <teiHeader>
         <fileDesc>
@@ -15,17 +15,22 @@
     </teiHeader> 
     <standOff>
         <listPerson>
+            <person xml:id="antisia"><persName>antisia</persName></person>
+            <person xml:id="antisius"><persName>antisius</persName></person>
             <person xml:id="the_countesse_of_montgomeries_urania"> <persName>susan_de_vere</persName></person>
             <person xml:id="queen_of_albania"><persName>wife</persName></person><!-- could this generic noun cause issues later if wife is one of the words tagged on the list of names people are called that are not proper nouns, like Shepherdess? -->
             <person xml:id="king_of_albania"><persName>King of Albania</persName></person>
             <person xml:id="king_of_albania_servant"><persName>King of Albania servant</persName></person><!-- where do I enter the content for the character index? -->
             <person xml:id="king_of_naples"><persName>King of Naples</persName></person>
             <person xml:id="king_of_morea"><persName>King of Morea</persName></person>
+            <person xml:id="king_of_romania"><persName>King of Romania</persName></person>
             <person xml:id="king_of_sicilie"><persName>King of Sicilie></persName></person>
             <person xml:id="limena"><persName>Limena</persName></person>
             <person xml:id="meriana"><persName>Meriana</persName></person>
             <person xml:id="narrator"><persName>unknown</persName></person><!-- not sure I will need this since any text not marked is understood as narrator -->
             <person xml:id="page_plot_perissus"><persName>Page</persName></person>
+            <person xml:id="queen_of_romania_first"><persName>Parents</persName></person>
+            
             <person xml:id="sandringall"><persName>Sandringall</persName></person><!-- so, yeah, this is handmaid's tale stuff!!! -->
             <!-- not including Aurora in this list differentiates that type of persName from characters in the plotlines, 
             but if that difference is not noted in the encoding, how will future contributors know?  and, why is Eccho but not Aurora tagged?   -->
@@ -43,9 +48,10 @@
         </listPerson>
     </standOff>
     <text>
-       <body>  
+       <body>
+           
            <p><lb/>W <!--come back to this ornamental scripty W -->hen the Spring began to appeare like the welcom mes-
-            <lb/>senger of Summer, one sweet  <w:aside who="#narrator" >(and in that more sweet)</w:aside>
+            <lb/>senger of Summer, one sweet  <w:aside who="#narrator" >(and in that more sweet)</w:aside><persName ></persName>
             <lb/>morning, after <!-- make sure to add italics for these names later --> <persName>Aurora</persName> had called all carefull eyes to 
             <lb/>attend the day, forth came the <interp type="#pi" ana="urania">faire</interp> <ref ana="#urania">Shepherdesse</ref> <persName ref="#urania"><choice><orig>V</orig><reg>U</reg></choice>ra-
                 <lb/>nia</persName>, <interp type="#pi" ana="urania">faire</interp> indeed; yet that farre too <interp type="#pi">meane a title</interp> for
@@ -152,7 +158,7 @@
                             <fw type="pageNum" rend="align(right)">3</fw>
                             
                             <fw type="aligntop(center)">Urania. LIB. 1.</fw><!-- Julia: wwp does not tag this, but I want these renditional features for the final design so that if anyone opens the Hathi digital edition, for example, the visual designs are similar. If this were a manuscript, I might feel differently. But this is a published work by a woman in 1621. I think that it is important to at least nod to the material artifact and preserve some of that in some way with in this edition. That's why I keep coming back to what might seem insignificant features. For many this might be the only exposure they ever have to the miracle that a woman published a book in 1621 that they could still put their eyes and hands on today. The 18-22 year olds that I teach are dumbfounded and resentful that they did not know about Wroth's work sooner or even heard her name mentioned. Learning about her production and life shifts their perspective. That's anecdotal, I know, but I've taught her for 10 years now, almost every semester, and the reaction is always the same.  --> 
-                            
+                          
                             <lg type="quatrain">
                                 <l>Drops of my dearest bloud shall let Loue know</l>
                                 <l rend="indent(1)">Such teares for her I shed, yet still do burne,</l>
@@ -1111,22 +1117,40 @@
                <lb/>dered that braue <w:aside who="#narrator">(but doubtfull)</w:aside> attempt, vsing these speeches to him. 
            </p>
            <p><lb/><said who="#urania">Be satisfied, my dearest friend,</said> said she, <said who="#urania">and hazard not your selfe in this
-           kinde, seeking to alter what is ordain'd by Fate, and therefore not be
-           changed: but rather giue vs example, as confidently, and mildly to suf-
-           fer this aduersity, as happily we might haue enioyed the other we expected.</said>
-           He only with languashing, but (to her) louing looke, answer'd her, when 
-           the <name type="only" ref="#sandringall">Pirat</name>, contrarie to their expectation, came, kneeling downe before
-           Vrania, vsed these words.</p>
+               <lb/>kinde, seeking to alter what is ordain'd by Fate, and therefore not be
+           <lb/>changed: but rather giue vs example, as confidently, and mildly to suf-
+               <lb/>fer this aduersity, as happily we might haue enioyed the other we expected.</said>
+               <lb/>He only with languashing, but (to her) louing looke, answer'd her, when 
+               <lb/>the <name type="only" ref="#sandringall">Pirat</name>, contrarie to their expectation, came, kneeling downe before
+               <lb/>Vrania, vsed these words.</p>
            <p><lb/><said who="#sandringall">Let not, fairest Princesse, this accident trouble you, since your imprison-
-           ment shall bee no other then the command of mee, and mine: neither
-           most noble Sir, be you, or these other offended, for sooner will I doe vio-
-           lence on my selfe then any way wrong those that come with this Lady:
-           Bee patient, and you shall soone see, the cause of my taking this no-
-           ble prey</said>; this said, he rose, and placing them all on fine seats in the Cabine,
-           where lately the Prince had sate free from both the bands of loue, and im-
-           prisonment, himselfe sitting before them began his discourse in this manner
-           <w:aside who="#narrator">(while the ship vnder saile was guided the way which he directed the Pilat)</w:aside>
-           </p>
+               <lb/> ment shall bee no other then the command of mee, and mine: neither
+               <lb/>most noble Sir, be you, or these other offended, for sooner will I doe vio-
+               <lb/>lence on my selfe then any way wrong those that come with this Lady:
+               <lb/>Bee patient, and you shall soone see, the cause of my taking this no-
+               <lb/>ble prey</said>; this said, he rose, and placing them all on fine seats in the Cabine,
+               <lb/>where lately the Prince had sate free from both the bands of loue, and im-
+               <lb/>prisonment, himselfe sitting before them began his discourse in this manner
+               <lb/><w:aside who="#narrator">(while the ship vnder saile was guided the way which he directed the Pilat)</w:aside>
+               <lb/>My name (said he) is <persName ref="#sandringall">Sandringall</persName>, borne and bred in the land of <placeName>Romania</placeName>, be-
+               <lb/>ing seruant to the <ref type="#king_of_romania">King</ref> thereof: this <ref type="#king_of_romania">King</ref> liued long as one may say, the fa-
+               <lb/>uorite of fortune, being blest in his gouernment with peace, and loue of his 
+               <lb/>people, but principlally happy in two children, a son, and a daughter, yonger 
+               <lb/>by some yeares then her brother, he being called <persName ref="antisius">antissius</persName>, and she <persName ref="#antisia">Antisia</persName>;
+               <lb/>promising in their youthes all comfort to succeed in their age: but destinie
+               <lb/>herein commanded, disposing quite other waies, and thus it was. The <ref type="#king_of_romania">King</ref>
+               <lb/>my <ref type="#king_of_romania">Master</ref> hauing in his youth been a braue and valiant <ref type="#king_of_romania">Prince</ref>, giuing him-
+               <lb/>selfe vnto the seeking and finishing aduentures, a strict leauge of friendship
+               <lb/>grew betweene him, and the <persName ref="#king_of_achaia">King of Achaia</persName>, for whose sake <ref type="#king_of_romania"></ref>he left his coun-
+               <lb/>try, with a great army assisting <ref type="#king_of_achaia">him</ref> against his Macedonian enemie: after re-
+               <lb/>turning with honor and content, the <persName ref="#king_of_achaia">Achaian King</persName> gratefull for such a cur-
+               <lb/>tesie, being growne in yeares, sent Embassadours to demand his daughter in 
+               <lb/>marriage for his sonne, and withall to haue the Princesse sent vnto him, to be
+               <lb/>brought vp together, to the end, that conuersation <w:aside who="#sandringall">(a ready friend to loue)</w:aside>
+               <lb/>might nurse their afections so wel, as she might as contentedly be his daugh-
+               <lb/>ter, as it was affectionately desired of him. His sonne, as towardly a Prince <!-- towardly=Leandrus and Christian=Leandurs, Parselius, and Amphilanthus -->
+               <lb/>as those parts had, called <persName ref="#leandrus">Leandrus</persName>, with whom few <interp type="pi">Christian Princes</interp> will
+           
                
                
                
@@ -1134,14 +1158,73 @@
                <fw type="catch" rend="align(right)">com-</fw>
                <pb n="025"/>
                <milestone unit="sig" n="E1r"/>
-               <fw type="pageNum" rend="align(right)">25</fw>     
+               <fw type="pageNum" rend="align(right)">25</fw>  
+               <lb/>compare, except the two Cousens <persName>Parselius</persName> and <persName>Amphilanthus</persName>: but to my dis-
+               <lb/>course. My <ref type="#king_of_romania">Master</ref> soon consented to the <persName type="#king_of_achaia">Achayan king</persName>s demand, which al-
+               <lb/>though for the farnesses of the country he might haue refused; yet the neere-
+               <lb/>nes of their loues was such, as he could not deny him, or his request, resoluing
+               <lb/>instantly to send the one halfe of his happinesse to his old friend; and for this
+               <lb/>end he sent for me, but herewithal begins my miserie, caused by my treache-
+               <lb/>rie, which heartily I repent, and am ashamed of. I being arriued at his court,
+               <lb/>out of an ancient confidence which he had of my loialtie to him, committed
+               <lb/>this charge vnto me, to see his Antisia carefully conducted and deliuered to
+               <lb/>the <persName ref="#king_of_achaia">king of Achaya</persName>:  <!-- up to this point, speling Achaia for persName and Achaya for placeName. I'll have to search these and tag them for <choice> -->giuing me directions, and counsel how to carry myselfe;
+               besides sole authority and power in this embassage. Thus we departed, my
+               wife attending on her person; accompanied we were with most of the nobi-
+               lity, thier loues being such, as they parted not til they saw the yong <ref type="#antisia">Princesse</ref>
+               shipped. Couetousnes <w:aside who="#sandrigall">(a dangerous sin in this time)</w:aside> bred in my wife <w:aside who="#sandrigall">(seeing
+               the infinite riches the father had sent with his child)</w:aside>; her perswasions besides
+               <w:aside who="#sandrigall">(or rather ioyn'd to the diuelish sense of gaine)</w:aside> made me consent to detesta-
+               ble wickedness. Led by this wicked subtilty, we resolu'd not to take our way
+               to <placeName>Achaya</placeName>, but to put in to some Island, there to sell the Iewels, and leaue the
+               <ref type="#antisia">Princesse</ref> in a religious house, not to bee knowne while her deare <ref type="#queen_of_romania_first_king_of_romania">Parents</ref>
+               should esteeme her lost, we vsing the gaine to our owne profits. More cun-
+               ningly to carry this, we sent a seruant of ours before into the ship, with such
+               prouision as our plot required, towards night, the sweete young <ref type="#antisia">young Lady</ref> 
+               embarqued, with beliefe to go into Achaya; we purposing nothing lesse: for 
+               in the dead time of the night wee set the ship on fire, hauing before <w:aside who="#sandringall">(when
+               most slept)</w:aside> conuaide the treasure into the long boate: then with as much a-
+               sasement as any <w:aside who="#sandringall">(nothing like the bellows of that fuell</w:aside> I tooke the <ref type="#antisa">Princesse</ref>
+               in mine armes leaping into the boate, calling to my wife to follow me, with-
+               all cutting the cord, lest others should leape in: she leaped, but short, her sin
+               so heauy drowning her, and my trusty seruant, with al the knights, in number
+               twnety, and the Ladies sent to attend <persName ref="#antisia">Antisia</persName> were drown'd, or burnd, or
+               both. Then play'd I the waterman, making towards the next shore we could
+               discouer; day breaking gaue vs sight of one, yet only for flattering hope to play
+               withall, not to be enioy'd, for instantly were we set on by rouers, who kept
+               about these coasts. The Princesse
+              
+               <fw type="catch" rend="align(right)">com-</fw>
+               <pb n="025"/>
+               <milestone unit="sig" n="E1r"/>
+               <fw type="pageNum" rend="align(right)">25</fw> 
                
-               <!-- Limena's pages -->   
+               
+               
+           </p>
+          <w:aside ></w:aside>
+           
+           <!--  What are the characteristics of those who are "saved" and those who are not saved or whose ends are death? -->
+           
+           <!-- Amphilanthus restores the King of Sicily to his throne on pp 23-25, and I'm not sure I have that marked -->
+           
+           <!-- Meriana, on page 24, is usurped and thrown in a tower unless she marries the usurper, but eventually fakes her death, marries Rosindy, Prince of Morea, Parselius's younger brother so second in line to the throne after him. She, however, was the Queen of Macedon! The one that the King of Albany told Parselius about when he happened upon Urania on Palanteria, who had been imprisoned and needed rescue. Her position remains unsecure because her male cousin continues to threaten her, then claims her as his wife after she has secretly married Rosindy. She is scheduled for execution, rescued by Rosindy, and then she travels with him to Achaya. Her situation underscores how unstable even the security of an aristocratic lineal identity can be in a construct where to opportunity to have even the most basic of human needs met is more attainable the higher the socio-political class regardless of financial status. 
+           In fact, financial status is never addressed in the text, that I can remember, unless it is related to the motivation for a person of a lower class to take from or manipulate one from a higher class. Sandringal and his wife, for example, kill the nobility and kidnap Antisia for Antisia's treasure. -->
+           
+           <!-- Duke's story for dali and sali pp 34-37: cause is his love for the young man. Requires young man to lie and manipulate and oust duke from his position. Is the fault the duke's, or is it the young man? Ultimately, the duke is loyal to love, refusing to punish the young man, but also remorseful and repentent about the suffering and loss it causes his wife and daughter-->
+           
+           <!-- Antisia rescue 39-40 -->
+           
+           <!-- Antisius banished by his step-mother, marries and has a son who is, killed in battle, and son, eventually, named King of the Romans pp 75-77 -->
+               
+           <!-- rest of Limena's story for sali: cause is her trade for protection from country lord. Requires the people to have an uprising against the king, who they think is taking the side of the gentry against whom they are revolting. The problem lay with the relationships between gentry and working class who automatically, Wroth makes explicit that this assumption is the problem, assume that the king would side with the gentry  -->   
            
               
          
        
         <!-- end of Booke 1 div --> 
+           
+           <!-- how do I include an image? I want to include Sandys's map and Roberts's genealogical tables. Eventually, I want to make Sandys's map interactive so that a character's story is told visually as geographical travel to show how many borders characters with authority can cross with authority. They just live in the assumption that it is their right and that they can and should do it -->
       
      
             <div type="interpretation"> 
