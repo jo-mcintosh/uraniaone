@@ -22,7 +22,45 @@
          <p>&#x017f;  ſ Some text here.</p>
          <list>
             <item xml:id="constant"><label>constant OED: </label></item>
-         <item></item></list>
+         <item><label></label></item>
+            
+            <!-- this div for the OED, medieval, early modern-centric glossary of terms that could include 
+           link to outside open access scholarly articles/sources. 
+     
+           consider implications of orig/reg with these words:
+        ambition
+        Aurora
+        birth
+        chinke (if a word does not exist in the OED, students can submit Wroth's use; if it exists, but the way that Wroth uses it does not exist, students cant submit Wroth's use)
+        
+        Despaire
+        destinie
+        Eccho
+        estate
+        fair
+        fortune
+        furie
+        ignorant
+        lamb
+        Lord/lord
+        marked
+        master
+        meane
+        niggardly
+        Ovid
+        religous
+        servant
+        slave
+        spring
+        stile
+        title
+        virtuous
+        wolf
+        worthy
+        
+        
+        -->
+         </list>
       </body> 
   </text>
 </TEI>
