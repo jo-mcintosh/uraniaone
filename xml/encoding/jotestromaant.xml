@@ -889,8 +889,8 @@
                <lb/>you</said>. When he concluded, <seg type="episode" xml:id="e10" next="#e11" resp="#king_of_albania" ana="#sali_dali" source="#king_of_albania">the old man with teares thus said:<said who="#King_of_Albania">O Almigh-
                    <lb/>tie God, how great are thy blessings to me, that before I die, thou dost thus
                    <lb/>bring the most desired happinesse I could wish for, in sending hither that 
-                   <lb/><ref type="#parselius">Prince</ref>, who onely can restore our good vnto vs. Most might and worthilie 
-                   <lb/>honourd Prince; see here before your roall prefernce, the vnfortunate <persName ana="#King_of_Albania">king
+                   <lb/><ref type="#parselius">Prince</ref>, who onely can restore our good vnto vs. Most might<!-- check might spelling --> and worthilie 
+                   <lb/>honourd Prince; see here before your <!-- check roall and prefernce spelling -->roall prefernce, the vnfortunate <persName ana="#King_of_Albania">king
                        <lb/>    of Albania</persName>, who in the warres between <placeName>Achaya</placeName> and <placeName>Macdeon</placeName>, taking part
                    <lb/>with <placeName>Achaya</placeName>, was beaten out of my country, and forced to wander, seeking
                    <lb/>safetie far from the place, where my safety ought most to haue been. I came
@@ -1252,15 +1252,19 @@
                     <!-- set up the pointer to the xml for Glossary of Terms -->
                 </linkGrp> </div>
         
-        <div> <!-- this div for the OED, medieval, early modern-centric glossary of terms that could include 
+        <div>
+            <p>
+                <ptr target="GoT.xml"/>constant  
+                      
+            <!-- this div for the OED, medieval, early modern-centric glossary of terms that could include 
            link to outside open access scholarly articles/sources. 
-           I tried <entry>, and a few other elements, but couldn't figure it out. Also 
+     
            consider implications of orig/reg with these words:
         ambition
         Aurora
         birth
         chinke (if a word does not exist in the OED, students can submit Wroth's use; if it exists, but the way that Wroth uses it does not exist, students cant submit Wroth's use)
-        constant
+        
         Despaire
         destinie
         Eccho
@@ -1286,7 +1290,10 @@
         wolf
         worthy
         
-        --> </div>
+        
+        --> </p>
+        
+        </div>
        
             <!-- Other names for characters
         Philargus: Perissus reports that Limena calls him Husband. The levels of narrative are complicated, because she calls him this where it is just marked <said> for what Limena is saying, but this is actually Perissus relaying to Urania what his Page relayed to him. Just before this, Perissus referes to Philargus as this wild man, her husband. How is wild man a different use? You could replace man and husband with each other and they work grammatically as well as tonally. What changes is that there is perhaps a wild man trope, like Nereana being mistaken for a wild woman in the forest? If this is what Wroth alludes to, then husband and wild man are very different things and cannot replace each other. Both are interesting. What sorts of men are called husband? What sorts other names?   All names are not created equal, and there are too many unique situations for me to be able to tag them all this time through. I don't think I even have enough time to think through each sitation and what it might mean in order to tag names for characters as types. I want to focus on maids, servants, messengers, and pages whose roles are necessary for the plots to progress. I'll keep tagging daugher, husband, wife, king, etc when it references someone in the standOff list. If they are a lower social class. So here are the types of name tagging I'm saying I'm going to do: 
